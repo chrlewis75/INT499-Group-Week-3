@@ -1,0 +1,75 @@
+/* src/pages/Checkout.css */
+
+/* Styles for the checkout page container */
+.checkout {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  justify-content: center; /* Centers items vertically */
+  text-align: center; /* Center align text */
+}
+
+/* Ensures the heading is centered */
+.checkout h2 {
+  margin: 20px 0; /* Space around the heading */
+  font-size: 24px; /* Font size for the heading */
+  align-items: center; /* Center align items */
+  justify-content: center; /* Centers items vertically */
+  width: 100%; /* Ensure heading takes full width */
+}
+
+/* Styles for the complete purchase button */
+.complete-purchase-button {
+  background-color: #0056b3; /* Green background */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Ensures the button behaves as a block element */
+  font-size: 16px;
+  margin: 20px auto; /* Margin around the button and auto on sides for centering */
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Hover effect for the button */
+.complete-purchase-button:hover {
+  background-color: #0a0257; /* Darker green on hover */
+}
+
+/* Styles for checkout items list */
+.checkout-items {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  width: 100%; /* Full width */
+}
+
+/* Center items in the list */
+.checkout-items {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  border-bottom: 1px solid #ddd; /* Light border for item separation */
+  padding: 10px;
+  text-align: center; /* Center align text within items */
+}
+
+/* Align item info center */
+.checkout-item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align item info */
+}
+
+/* Styles for confirmation message */
+.confirmation-message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #4CAF50; /* Green color for confirmation */
+  text-align: center;
+}
